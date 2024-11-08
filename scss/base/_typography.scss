@@ -1,0 +1,83 @@
+
+h1 {
+    font-size: 5.42rem;
+    @include breakpoint(ipad-max) {
+        font-size: 4.5rem;
+    }
+    @include breakpoint(portrait-mobile-max) {
+        font-size: 3rem;
+    }
+    @include breakpoint(custom-small-mobile-max) {
+        font-size: 2.2rem;
+    }
+}
+
+h2 {
+    font-size: 4.31rem;
+    @include breakpoint(ipad-max) {
+        font-size: 3.5rem;
+    }
+    @include breakpoint(portrait-mobile-max) {
+        font-size: 2.3rem;;
+    }
+}
+ 
+h3 {
+    font-size: 2.97rem;
+    @include breakpoint(ipad-max) {
+        font-size: 2.6rem;
+    }
+    @include breakpoint(custom-small-mobile-max) {
+        font-size: 2.1rem;
+    }
+}
+
+h4 {
+    font-size: 2.89rem;
+    @include breakpoint(ipad-max) {
+        font-size: 2.4rem;
+    }
+    @include breakpoint(custom-small-mobile-max) {
+        font-size: 1.9rem;
+    }
+}
+
+h5 {
+    font-size: 2.49rem;
+    @include breakpoint(ipad-max) {
+        font-size: 2.2rem;
+    }
+    @include breakpoint(custom-small-mobile-max) {
+        font-size: 1.7rem;
+    }
+}
+
+h6 {
+    font-size: 2.44rem;
+    @include breakpoint(ipad-max) {
+        font-size: 1.8rem;
+    }
+    @include breakpoint(custom-small-mobile-max) {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

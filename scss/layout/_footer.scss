@@ -1,0 +1,118 @@
+.footer {
+   position: relative;
+   background-color: $color-black;
+   // padding: 145.13px 49.80px 156.52px;
+   padding: 7.50rem 3.11rem 8.53rem;
+   z-index: 3;
+   @include breakpoint(ipad-max) {
+      padding: 4rem 0.93rem;
+   }
+   // @include breakpoint(mobile-max) {
+   //    padding: 4rem 0.93rem;
+   // }
+   &__left {
+      h4 {
+         font-family: $quaternary-font;
+         font-weight: 300;
+         @include breakpoint(ipad-max) {
+            margin: 0 0 2rem;
+         }
+      }
+   }
+   &__right {
+      padding: 0 0 0 2rem;
+      @include breakpoint(ipad-max) {
+         padding: 0;
+      }
+      &-heading {
+         font-family: $quaternary-font;
+         font-weight: 800;
+         font-size: 1.3rem;
+         margin-bottom: 1.8rem;
+      }
+      &-subheading {
+         font-family: $quaternary-font;
+         font-weight: 600;
+         font-size: 1rem;
+         text-transform: capitalize;
+         margin-bottom: 0.63rem;
+      }
+      .footer__follow {
+         .footer__icons {
+            a {
+               color: $color-white;
+               font-size: 1.3rem;
+               margin: 0 1.2rem 0 0;
+               &:hover {
+                  color: $color-light-blue;
+               }
+            }
+         }
+      }
+   }
+   &__list {
+      margin: 0 0 3.46rem;
+      @include breakpoint(mobile-max) {
+         margin: 0 0 2rem;
+      }
+      ul {
+         li {
+            margin: 0 0 0.31rem;
+            a {
+               color: $color-white;
+               &:hover {
+                  color: $color-light-blue;
+               }
+            }
+         }
+         &:first-of-type {
+            margin: 0 0 2.31rem;
+            @include breakpoint(mobile-max) {
+               margin: 0 0 2rem;
+            }
+         }
+      }
+   }
+   &__findus {
+      a {
+         color: $color-white;
+         margin: 2.13rem 0 4rem;
+         @include breakpoint(mobile-max) {
+            margin: 2rem 0;
+         }
+         &:hover {
+            color: $color-light-blue;
+         }
+      }
+   }
+   &__newsletter {
+      p {
+         margin: 0 0 3.1rem;
+      }
+   }
+   &__email {
+      &-input {
+         input {
+            border-radius: 0;
+            border: none;
+            border-bottom: 0.06rem solid $color-white;
+            background: none;
+            padding: 0 0 1.06rem;
+            margin: 0 0 1.33rem;
+            &::-webkit-input-placeholder {
+               color: $color-grey;
+            }
+            &:focus {
+               color: $color-white;
+               background: none;
+               outline: 0;
+               box-shadow: none;
+            }
+         }
+      }
+      p {
+         color: $color-grey;
+         margin: 0 0 2.22rem;
+      }
+   }
+}

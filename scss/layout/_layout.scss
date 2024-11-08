@@ -1,0 +1,17 @@
+
+.container{
+    width: 100%;
+    max-width: 72.75rem;
+    @include breakpoint(ipad-max) {
+    // margin: 0 auto;
+       padding:0 0.93rem;
+    }
+}
+
+.container-fluid {
+    padding: 0 2.81rem;
+    @include breakpoint(ipad-max) {
+        // margin: 0 auto;
+        padding:0 0.93rem;
+    }
+}
